@@ -1,0 +1,77 @@
+        body{
+            background-image: url(http://cdn.deepseek.com/blog/banner-background.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            display: flex;
+            height: auto;
+            justify-content: center;
+        }
+
+        .DeepSeek{
+            background-color: white;
+            width: 50vw;
+            top: 0;
+            height: 100%;
+            padding: 0 20px 0 20px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: auto;
+        }
+        .Messages{
+            background-color:white;
+            margin: 0.5dvw;
+        }
+        .message-other{
+            padding: 30px;
+            width: 40%;
+            text-align: left;
+            margin-top: 20px;
+            background-color: #F7F7F7;
+            border-radius: 20px;
+        }
+        .message-you{
+            padding: 30px;
+            width: 40%;
+            justify-self: right;
+            background-color: #007AFF;
+            color: white;
+            text-align: left;
+            margin-top: 20px;
+            border-radius: 20px;
+        }
+        .input-button{
+            border: 3px white solid;
+            color: white;
+            justify-self: right;
+            background-color: #6ea8ff;
+            border-radius: 10px;
+            text-align: center;
+            padding: 5px 20px 5px 20px;
+            font-size: 25px;
+        }
+        .input-button:hover{
+            background-color: #A7CAFF;
+            cursor: pointer;
+        }
+        .input{
+            justify-self: bottom;
+            justify-content: center;
+            display: flex;
+            padding: 10px;
+            text-align: center;
+            margin-top: auto;
+            margin-bottom: 10px;
+        }
+        .input-box{
+            border: 3px #0072FF solid;
+            border-radius: 10px;
+            padding: 10px 20px 10px 20px;
+            background: none;
+            width: 80%;
+            margin-right: 10px;
+            outline: 0;
+            background: none;
+        }
