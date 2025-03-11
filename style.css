@@ -91,4 +91,9 @@
                 font-size: 1em;
                 padding: 10px;
             }
+            @supports (-webkit-touch-callout: none){
+                .DeepSeek{
+                    height: 100dvh;
+                }
+            }
           }
